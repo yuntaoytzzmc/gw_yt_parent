@@ -1,0 +1,25 @@
+spring:
+   application:
+      name: spring-eurake-client1
+   datasource:
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/taotao?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+   mybatis:
+        type-aliases-package: com.taotao.pojo
+        mapper-locations: classpath*:com/taotao/mapper/*.xml
+server:
+    port: 8093
+#eureka 配置 服务端 注册到里面服务
+eureka: 
+   client:
+     # 健康检查
+       healthcheck:
+          enabled: true
+       #服务注册地址
+       serviceUrl:  
+          defaultZone: http://app1:8091/eureka/
+   # 是否显示IP呢  跳转显示
+   instance:
+     prefer-ip-address: true

@@ -1,0 +1,8 @@
+#8094 端口
+spring:
+  cloud:
+    config:
+       uri: http://localhost:8099/
+       profile: dev
+       label: master
+       name:  microservice-config-client

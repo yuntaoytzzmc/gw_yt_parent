@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_admin_controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_security_oauth2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_service_twos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_serviceclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_serviceclient_two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_servicei" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gw_yt_zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ytss" charset="UTF-8" />
+  </component>
+</project>

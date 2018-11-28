@@ -1,0 +1,20 @@
+spring:
+   application: 
+      name: spring-zuul
+server:
+    port: 8097
+
+#eureka 配置 服务端 注册到里面服务
+eureka: 
+   client:
+     # 健康检查
+       healthcheck:
+          enabled: true
+       #服务注册地址
+       serviceUrl:  
+          defaultZone: http://app1:8091/eureka/
+zuul:
+  routes:
+    api-a:
+      path: /Test/**
+      serviceId: spring-eurake-client

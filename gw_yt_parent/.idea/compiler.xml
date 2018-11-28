@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gw_yt_admin_controller" />
+        <module name="gw_yt_common" />
+        <module name="gw_yt_config" />
+        <module name="gw_yt_controller" />
+        <module name="gw_yt_dao" />
+        <module name="gw_yt_model" />
+        <module name="gw_yt_security_oauth2" />
+        <module name="gw_yt_service" />
+        <module name="gw_yt_service_twos" />
+        <module name="gw_yt_serviceclient" />
+        <module name="gw_yt_serviceclient_two" />
+        <module name="gw_yt_servicei" />
+        <module name="gw_yt_zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gw_yt_huotaicontroller" target="1.7" />
+      <module name="gw_yt_service_interface" target="1.7" />
+      <module name="gw_yt_service_two" target="1.7" />
+      <module name="Test" target="1.7" />
+      <module name="ytss" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
