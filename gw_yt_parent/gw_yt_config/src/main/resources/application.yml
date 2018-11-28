@@ -1,0 +1,20 @@
+spring:
+   application: 
+      name: gw_yt_config
+   cloud:
+     config:
+       server:
+         git:
+           password: 19910118yt
+           username: yuntaoyt
+           uri: https://github.com/yuntaoyt/sconfig/
+server:
+    port: 8099
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8091/eureka/
+
+
+
